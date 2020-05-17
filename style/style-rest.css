@@ -1,0 +1,505 @@
+#head-wrapper, 
+#nav-wrapper {
+    position: static;
+}
+
+/*  */
+/* ABOUT STYLES */
+/*  */
+#about-wrapper,
+#events-main-wrapper,
+#game-collection-main-wrapper,
+#contact-main-wrapper {
+    clear: both;
+    height: 100vh;
+}
+
+#about-wrapper .photo,
+#events-main-wrapper .photo,
+#game-collection-main-wrapper .photo,
+#contact-main-wrapper .photo {
+    height: 75%;
+    margin-top: 40px;
+}
+
+#about-wrapper .about-heading,
+#events-main-wrapper .events-heading,
+#game-collection-main-wrapper .game-collection-heading,
+#contact-main-wrapper .contact-heading {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#our-team .owners {
+    margin: 30px 0;
+}
+
+#our-team .photo {
+    float: right;
+    width: 50%;
+    height: 50%;
+    background-color: var(--color-heading);
+}
+
+#our-team .owners:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#our-team .owners p {
+    float: left;
+    width: 50%;
+    height: auto;
+    padding: 20px;
+}
+
+.team .person-row-1:after,
+.team .person-row-2:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.team .person {
+    display: inline-block;
+    width: 49.85%;
+}
+
+.team .person:nth-child(odd) {
+    border-right: 1px solid var(--color-border);
+}
+
+.team .person-row-2 {
+    border-top: 1px solid var(--color-border);
+}
+
+.team .person div {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#our-team .person .photo {
+    float: none;
+    margin: 0 auto;
+    width: 60%;
+    height: 40%;
+}
+
+.team .person .p-2 {
+    height: 15%;
+}
+
+.team > div .person:nth-child(even) {
+    float: right;
+}
+
+.team > div .person:nth-child(odd) {
+    float: left;
+}
+
+/* TESTIMONIALS */
+#testimonials-wrapper .container > div {
+    margin: 50px 0;
+}
+
+#testimonials-wrapper .box {
+    height: auto;
+    position: relative;
+    padding: 0;
+}
+
+#testimonials-wrapper .box i {
+    position: absolute;
+    top: -10%;
+    left: 40%;
+    font-size: 3rem;
+}
+
+#testimonials-wrapper .box div:first-child {
+    float: left;
+    width: 40%;
+    padding: 10px 0;
+}
+
+#testimonials-wrapper .photo {
+    width: 80%;
+    height: 15%;
+    margin: auto;
+}
+
+#testimonials-wrapper .box div:last-child {
+    display: inline-block;
+    width: 60%;
+    padding: 10px;
+}
+
+#testimonials-wrapper .box .p-2 {
+    padding-top: 10px;
+    height: 15%;
+    text-align: left;
+}
+
+#testimonials-wrapper .box .heading-3 {
+    width: 100%;
+    margin-top: 20px;
+    text-align: left;
+}
+
+/*  */
+/* EVENTS STYLES */
+/*  */
+#events-wrapper .events {
+    padding: 40px 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+#events-wrapper .events:last-child {
+    border: none;
+}
+
+#events-wrapper .events div:first-child {
+    float: left;
+    width: 50%;
+}
+
+#events-wrapper .photo {
+    width: 70%;
+    height: 30vh;
+    margin: auto;
+    background-color: var(--color-heading);
+}
+
+#events-wrapper .events:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#events-wrapper .events div:last-child {
+    float: right;
+    width: 50%;
+    height: auto;
+    padding: 20px;
+}
+
+#events-wrapper .events div .heading-3 {
+    width: 100%;
+    text-align: left;
+}
+
+#events-wrapper .events div .p-2 {
+    text-align: left;
+    height: auto;
+    padding: 30px 0;
+}
+
+/*  */
+/* GAME COLLECTION STYLES */
+/*  */
+#game-collection-wrapper .container div:first-child .p-2 {
+    height: auto;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+#game-collection-wrapper .container div ul {
+    list-style: none;
+}
+
+#game-collection-wrapper .container div ul li {
+    font-size: 1.75rem;
+}
+
+#game-collection-wrapper .container .games > div {
+    columns: auto 3;
+    column-gap: 10%;
+    column-fill: balance;
+    margin: 40px 0;
+    padding: 40px 20px;
+    position: relative;
+    border-top: 5px double var(--color-border);
+}
+
+#game-collection-wrapper .container .games div div:last-child {
+    position: absolute;
+    top: -22.5%;
+    left: 0;
+    width: 100%;
+}
+
+#game-collection-wrapper .letter  {
+    font-family: var(--font-heading);
+    font-size: 4rem;
+    line-height: 1em;
+    display: block;
+    text-align: center;
+    width: 50px;
+    margin: auto;
+    padding: 10px 0;
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    background-color: var(--color-heading);
+    box-shadow: var(--shadow);
+}
+
+/*  */
+/* CONTACT STYLES */
+/*  */
+.form-wrapper {
+    margin: 50px 0;
+    padding: 30px 0;
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    background-color: var(--color-heading);
+}
+
+.form-description {
+    float: left;
+    width: 40%;
+}
+
+.form-description .p-2 {
+    height: auto;
+    padding: 30px;
+}
+
+.form-wrapper:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.form {
+    position: static;
+    float: right;
+    width: 60%;
+    padding: 0px 30px 30px;
+    margin-top: 1%;
+    background-color: var(--color-light);
+    border-radius: 0px;
+    box-shadow: none;
+    background-color: var(--color-heading);
+}
+
+.form fieldset {
+    padding: 30px;
+    background-color: var(--color-light);
+}
+
+.form legend {
+    font-size: 2.5rem;
+}
+
+.form .select label {
+    font-size: 1.75rem;
+    margin: 5px 0;
+}
+
+.form select,
+.form select option {
+    width: 100%;
+}
+
+.form-wrapper .form fieldset ul li:nth-child(3),
+.form-wrapper .form fieldset ul li:nth-child(4) {
+    display: block;
+    width: 100%;
+}
+
+.form fieldset ul li label {
+    padding: 10px 0 5px;
+}
+
+.form textarea {
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    font-size: 1.4rem;
+    resize: none;
+    border: 1px solid var(--color-border);
+    border-radius: 5px;
+}
+
+.form fieldset ul li input:focus,
+.form select:focus,
+.form textarea:focus {
+    background-color: #d7f1cf;
+}
+
+.form-wrapper .form fieldset ul li:last-child {
+    display: block;
+    width: 50%;
+    margin: 30px auto;
+}
+
+/*  */
+/* MEDIA QUERIES */
+/*  */
+@media screen and (max-height: 600px) and (max-width: 1050px) {
+
+    /*  */
+    /* ABOUT US PAGE */
+    /*  */
+    #about-wrapper,
+    #events-main-wrapper,
+    #game-collection-main-wrapper,
+    #contact-main-wrapper {
+        height: 110vh;
+    }
+
+    #about-wrapper .photo,
+    #events-main-wrapper .photo,
+    #game-collection-main-wrapper .photo,
+    #contact-main-wrapper .photo {
+        margin-top: 20px;
+    }
+
+    #our-team .person .photo {
+        height: 50%;
+    }
+
+    #testimonials-wrapper .photo {
+        height: 25%;
+    }
+
+    /*  */
+    /* EVENTS PAGE */
+    /*  */
+    #events-wrapper .photo {
+        height: 55vh;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    
+    /*  */
+    /* NAVBAR */
+    /*  */
+    #nav-wrapper {
+        height: 49px;
+    }
+
+    #nav-wrapper nav {
+        float: right;
+        width: 100%;
+    }
+
+    .main-logo {
+        float: left;
+    }
+
+    #nav-wrapper .main-nav {
+        height: auto;
+    }
+
+    .main-nav ul li {
+        float: none;
+        display: block;
+    }
+
+    .main-nav ul li a {
+        display: block;
+    }
+
+    /*  */
+    /* ABOUT US SECTION */
+    /*  */
+    #our-team .team .person {
+        display: block;
+        width: 100%;
+        border: none;
+        border-top: 1px solid var(--color-border);
+    }
+
+    .team .person div {
+        padding: 30px 20px;
+    }
+
+    #our-team .person:nth-child(odd) .photo {
+        float: left;
+        width: 47.5%;
+        height: 27.5%;
+    }
+
+    #our-team .person:nth-child(even) .photo {
+        float: right;
+        width: 47.5%;
+        height: 27.5%;
+    }
+
+    .team .person .heading-2,
+    .team .person .heading-3,
+    .team .person .p-2 {
+        display: inline-block;
+        width: 50%;
+        margin: 0;
+        padding: 15px;
+    }
+
+    /* TESTIMONIALS */
+    #testimonials-wrapper .box {
+        display: block;
+        width: 90%;
+        margin: 7.5% auto;
+    }
+
+    #testimonials-wrapper .photo {
+        width: 85%;
+        height: 20%;
+        margin-left: 5%;
+    }
+
+    /*  */
+    /* CONTACT US SECTION */
+    /*  */
+    .form-description {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+
+    .form {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-height: 550px) and (max-width: 900px) {
+
+    #our-team .team .person {
+        height: 65vh;
+    }
+
+    #our-team .team .person .photo {
+        height: 75%;
+    }
+
+    #testimonials-wrapper .box {
+        height: 35vh;
+    }
+
+    #testimonials-wrapper .photo {
+        height: 80%;
+        width: 75%;
+        margin-left: 5%;
+    }
+
+    #testimonials-wrapper .box .p-2 {
+        height: auto;
+    }
+
+    /*  */
+    /* EVENTS PAGE */
+    /*  */
+    #events-wrapper .photo {
+        height: 55vh;
+    }
+
+}
