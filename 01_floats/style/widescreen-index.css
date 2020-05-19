@@ -1,0 +1,143 @@
+@media screen and (min-width: 1050px) {
+
+    /*  */
+    /* SHOWCASE */
+    /*  */
+    #showcase-wrapper .container .main-heading-2 {
+        position: absolute;
+        top: 30%;
+        width: 50%;
+        margin-top: 0;
+    }
+
+    #showcase-wrapper .container .main-heading-1 {
+        position: absolute;
+        top: 50%;
+        width: 50%;
+        margin-top: 0;
+    }
+
+    .form {
+        position: sticky;
+        top: 15%;
+        left: 55%;
+        display: inline-block;
+        width: 47.5%;
+    }
+
+    .form .select {
+        width: 50%;
+    }
+
+    /*  */
+    /* FEATURES SECTION */
+    /*  */
+    #body-wrapper .box {
+        display: inline-block;
+        width: 30%;
+        height: 85vh;
+        padding: 20px;
+        margin: 1.5%;
+    }
+
+    #body-wrapper .box .photo {
+        float: none;
+        width: 100%;
+        height: 50%;
+        margin-bottom: 10%;
+    }
+
+    #body-wrapper .box div {
+        display: block;
+        width: 100%;
+    }
+
+    #body-wrapper .box .p-2 {
+        height: 25%;
+    }
+
+    /*  */
+    /* HOW IT WORKS SECTION */
+    /*  */
+    #how-it-works-wrapper {
+        height: 60vh;
+    }
+
+}
+
+@media screen and (max-height: 600px) and (min-width: 1050px) {
+
+    * {
+        font-size: 8px;
+    }
+
+    /*  */
+    /* SHOWCASE SECTION */
+    /*  */
+    #showcase-wrapper .container .main-heading-2 {
+        margin-top: 10vh;
+    }
+
+    #showcase-wrapper .form {
+        margin-top: 5%;
+    }
+
+    /*  */
+    /* FEATURE SECTION */
+    /*  */
+    #body-wrapper .box {
+        height: 110vh;
+    }
+
+    /*  */
+    /* HOW IT WORKS SECTION */
+    /*  */
+    #how-it-works-wrapper {
+        height: 90vh;
+    }
+
+    /*  */
+    /* POPUP SECTION */
+    /*  */
+    .popup:target{
+        display: none;
+    }
+
+    #popup-wrapper a {
+        cursor: auto;
+    }
+
+    /*  */
+    /* ABOUT US PAGE */
+    /*  */
+    #about-wrapper,
+    #events-main-wrapper,
+    #game-collection-main-wrapper,
+    #contact-main-wrapper {
+        height: 110vh;
+    }
+
+    #about-wrapper .photo,
+    #events-main-wrapper .photo,
+    #game-collection-main-wrapper .photo,
+    #contact-main-wrapper .photo {
+        margin-top: 20px;
+    }
+
+    #our-team .team .person .photo {
+        height: 50%;
+    }
+
+    #testimonials-wrapper .photo {
+        height: 25%;
+    }
+
+    /*  */
+    /* EVENTS PAGE */
+    /*  */
+    #events-wrapper .photo {
+        height: 55vh;
+    }
+
+
+}
