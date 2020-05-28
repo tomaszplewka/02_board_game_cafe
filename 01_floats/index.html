@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Board Game Cafe">
+    <meta name="keywords" content="board games, leisure time, fun, cafe">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Comic+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e9cc24e640.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/style-index.css">
+    <link rel="stylesheet" href="./style/mobile-index.css">
+    <link rel="stylesheet" href="./style/widescreen-index.css">
+    <title>Board Game Cafe | Welcome</title>
+</head>
+
+<body>
+    <header>
+        <div id="head-wrapper">
+            <div class="container">
+                <div id="contact-info-head">
+                    <i class="fas fa-phone-square-alt"></i>
+                    <span>+1 444 555 8888</span>
+                    <i class="far fa-envelope"></i>
+                    <span>frontdesk@bgc.com</span>
+                </div>
+                <div id="social-media-head">
+                    <ul>
+                        <li title="facebook"><a href="https://www.facebook.com" target="_blank"><i
+                                    class="fab fa-facebook"></i></a></li>
+                        <li title="twitter"><a href="https://twitter.com" target="_blank"><i
+                                    class="fab fa-twitter-square"></i></a></li>
+                        <li title="instagram"><a href="https://www.instagram.com" target="_blank"><i
+                                    class="fab fa-instagram-square"></i></a></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="nav-wrapper" class="bg-light">
+            <div class="container">
+                <nav>
+                    <div class="main-logo">
+                        <h1><a class="logo" href="./index.html"><span><i class="fas fa-dice"></i></span>Board Game
+                                Cafe<span><i class="fas fa-dice"></i></span></a></h1>
+                    </div>
+                    <input type="checkbox" id="menu" />
+                    <label for="menu" class="closed"><i class="fas fa-bars"></i></label>
+                    <label for="menu" class="open"><i class="fas fa-times"></i></label>
+                    <div class="main-nav menu-content bg-light">
+                        <ul>
+                            <li><a class="current" href="./index.html">Home</a></li>
+                            <li><a href="./about.html">About Us</a></li>
+                            <li><a href="./events.html">Events</a></li>
+                            <li><a href="./game-collection.html">Game Collection</a></li>
+                            <li><a href="./contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div id="showcase-wrapper">
+            <div class="container">
+                <div>
+                    <h1 class="main-heading-2">Welcome to Board Game Cafe</h1>
+                </div>
+                <div>
+                    <h1 class="main-heading-1">Spent quality time playing board games</h1>
+                </div>
+                <div class="form">
+                    <form>
+                        <fieldset>
+                            <legend>Book your spot</legend>
+                            <div class="select">
+                                <label for="location">Location</label>
+                                <select id="location" name="location">
+                                    <option value="Calgary" checked>Calgary</option>
+                                    <option value="Toronto">Toronto</option>
+                                </select>
+                            </div>
+                            <ul>
+                                <li>
+                                    <label for="name">Your Name</label>
+                                    <input type="text" id="name" name="name">
+                                </li>
+                                <li>
+                                    <label for="num-people"># of people</label>
+                                    <input type="number" name="num-people" id="num-people" min="1" max="8"
+                                        placeholder="1">
+                                </li>
+                                <li>
+                                    <input type="date" id="date" name="name" value="2020-04-06" min="2020-04-06">
+                                </li>
+                                <li>
+                                    <input type="time" id="time" name="time" value="12:00">
+                                </li>
+                                <li>
+                                    <input type="tel" name="tel" id="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required
+                                        placeholder="123-456-7890">
+                                </li>
+                                <li>
+                                    <input type="email" id="email" name="email" required
+                                        placeholder="john.doe@hotmail.com">
+                                </li>
+                                <li>
+                                    <button class="btn" type="submit">Book Now</button>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="body-wrapper" class="bg-light">
+            <div class="container">
+                <div class="box">
+                    <img class="photo" src="./img/find-us-small.jpg" alt="Find Us">
+                    <div>
+                        <h2 class="heading-2">Find Us</h2>
+                        <p class="p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At cumque adipisci
+                            dolores quos, et autem sequi
+                            doloremque dignissimos velit dicta.</p>
+                        <a href="./contact.html" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img class="photo" src="./img/events-small.jpg" alt="Events">
+                    <div>
+                        <h2 class="heading-2">Great Events</h2>
+                        <p class="p-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi atque deleniti
+                            repellat quisquam natus id itaque facere rerum, suscipit error!</p>
+                        <a href="./events.html" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img class="photo" src="./img/experience-small.jpg" alt="Amazing Experience">
+                    <div>
+                        <h2 class="heading-2">Amazing Experience</h2>
+                        <p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi impedit quia
+                            adipisci velit? Ut pariatur placeat corrupti distinctio quo!</p>
+                        <a href="./about.html" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="how-it-works-wrapper" class="bg-white">
+            <div class="container">
+                <h1 class="heading-1">How it Works</h1>
+                <div class="tabs">
+                    <div class="bg-light">
+                        <input type="radio" id="check-in" name="how-it-works" checked>
+                        <label for="check-in">Check In & Order at the Counter</label>
+                        <div class="content bg-white">
+                            <i class="fas fa-check-double"></i>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus amet ullam quod a
+                                commodi ipsa voluptates
+                                similique voluptatem iure praesentium?</p>
+                        </div>
+                    </div>
+                    <div class="bg-light">
+                        <input type="radio" name="how-it-works" id="pick">
+                        <label for="pick">Pick a Game, Choose a Room & Enjoy</label>
+                        <div class="content bg-white">
+                            <i class="fas fa-dice"></i>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos ea eveniet deserunt
+                                repudiandae voluptatum reprehenderit autem non eum, placeat ratione!</p>
+                        </div>
+                    </div>
+                    <div class="bg-light">
+                        <input type="radio" name="how-it-works" id="pay">
+                        <label for="pay">Pay on Your Way Out</label>
+                        <div class="content bg-white">
+                            <i class="far fa-credit-card"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo possimus dolore maiores,
+                                quisquam quasi mollitia laborum illo molestiae nisi saepe?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="rooms-wrapper" class="bg-light">
+            <div class="container">
+                <h1 class="heading-1">Board Game Rooms</h1>
+                <ul>
+                    <li>
+                        <div class="front">Casual Room</div>
+                        <div class="back">
+                            <img src="./img/casual-room-small.jpg" alt="Casual Room">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="front">Family Room</div>
+                        <div class="back">
+                            <img src="./img/family-room-small.jpg" alt="Family Room">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="front">Fantasy Room</div>
+                        <div class="back">
+                            <img src="./img/fantasy-room-small.jpg" alt="Fantasy Room">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="front">Horror Room</div>
+                        <div class="back">
+                            <img src="./img/horror-room-small.jpg" alt="Horror Room">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="front">Underground Room</div>
+                        <div class="back">
+                            <img src="./img/underground-room-small.jpg" alt="Underground Room">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="front">Strategy Room</div>
+                        <div class="back">
+                            <img src="./img/strategy-room-small.jpg" alt="Strategy Room">
+                        </div>
+                    </li>
+
+                </ul>
+                <a href="./game-collection.html" class="btn">Check Our Board Game Selection</a>
+            </div>
+        </div>
+    </section>
+    <section id="popup-section">
+        <div class="container">
+            <div id="slide-popup-1" class="popup" href="#">
+                <div class="popup-content">
+                    <img class="photo" src="./img/slide-show-1.jpg" alt="slide-show-1" />
+                    <a href="#popup-wrapper" class="close">x</a>
+                </div>
+            </div>
+            <div id="slide-popup-2" class="popup" href="#">
+                <div class="popup-content">
+                    <img class="photo" src="./img/slide-show-2.jpg" alt="slide-show-2" />
+                    <a href="#popup-wrapper" class="close">x</a>
+                </div>
+            </div>
+            <div id="slide-popup-3" class="popup" href="#">
+                <div class="popup-content">
+                    <img class="photo" src="./img/slide-show-3.jpg" alt="slide-show-3" />
+                    <a href="#popup-wrapper" class="close">x</a>
+                </div>
+            </div>
+            <div id="slide-popup-4" class="popup" href="#">
+                <div class="popup-content">
+                    <img class="photo" src="./img/slide-show-4.jpg" alt="slide-show-4" />
+                    <a href="#popup-wrapper" class="close">x</a>
+                </div>
+            </div>
+            <div id="slide-popup-5" class="popup" href="#">
+                <div class="popup-content">
+                    <img class="photo" src="./img/slide-show-5.jpg" alt="slide-show-5" />
+                    <a href="#popup-wrapper" class="close">x</a>
+                </div>
+            </div>
+            <div id="slide-popup-6" class="popup" href="#">
+                <div class="popup-content">
+                    <img class="photo" src="./img/slide-show-6.jpg" alt="slide-show-6" />
+                    <a href="#popup-wrapper" class="close">x</a>
+                </div>
+            </div>
+            <div id="popup-wrapper">
+                <a href="#slide-popup-1">
+                    <img class="photo bg-light" src="./img/slide-show-1.jpg" alt="slide-show-1">
+                </a>
+                <a href="#slide-popup-2">
+                    <img class="photo bg-light" src="./img/slide-show-2.jpg" alt="slide-show-2">
+                </a>
+                <a href="#slide-popup-3">
+                    <img class="photo bg-light" src="./img/slide-show-3.jpg" alt="slide-show-3">
+                </a>
+                <a href="#slide-popup-4">
+                    <img class="photo bg-light" src="./img/slide-show-4.jpg" alt="slide-show-4">
+                </a>
+                <a href="#slide-popup-5">
+                    <img class="photo bg-light" src="./img/slide-show-5.jpg" alt="slide-show-5">
+                </a>
+                <a href="#slide-popup-6">
+                    <img class="photo bg-light" src="./img/slide-show-6.jpg" alt="slide-show-6">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="book-now-wrapper">
+            <div class="transparent-wrapper">
+                <div class="container">
+                    <h1 class="heading-1">Ready to Book Your Spot?</h1>
+                    <p class="p-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, architecto!</p>
+                    <div>
+                        <a class="btn" href="#reservation-form">Book Now</a>
+                        <a class="btn" href="./contact.html">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div id="footer-wrapper">
+            <div class="container">
+                <div class="footer-dropdown">
+                    <h2 class="heading-footer">Location</h2>
+                    <div class="location">
+                        <a href="#info-wrapper-calgary">Calgary</a>
+                        <a href="#info-wrapper-toronto">Toronto</a>
+                    </div>
+                    <div id="info-wrapper-calgary">
+                        <div class="contact">
+                            <div>
+                                <div>
+                                    <i class="fas fa-map-marked-alt"></i>
+                                    <span>666, Downtown, Calgary</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <i class="fas fa-envelope"></i>
+                                    <span>frontdesk@bgc.com</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <i class="fas fa-phone-square-alt"></i>
+                                    <span>+1 222 555 9999</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hours">
+                            <div>
+                                <i class="fas fa-clock"></i>
+                                <p>Mon-Thu: 10am - 12am</p>
+                                <p>Fri-Sun: 10am - 1am</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="info-wrapper-toronto">
+                        <div class="contact">
+                            <div>
+                                <div>
+                                    <i class="fas fa-map-marked-alt"></i>
+                                    <span>1313, Main Street, Toronto</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <i class="fas fa-envelope"></i>
+                                    <span>frontdesk@bgc.com</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <i class="fas fa-phone-square-alt"></i>
+                                    <span>+1 444 555 8888</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hours">
+                            <div>
+                                <i class="fas fa-clock"></i>
+                                <p>Mon-Thu: 10am - 12am</p>
+                                <p>Fri-Sun: 10am - 1am</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer-follow-us">
+                    <h2 class="heading-footer">Follow Us</h2>
+                    <ul>
+                        <li title="facebook"><a href="https://www.facebook.com" target="_blank"><i
+                                    class="fab fa-facebook"></i></a></li>
+                        <li title="twitter"><a href="https://twitter.com" target="_blank"><i
+                                    class="fab fa-twitter-square"></i></a></li>
+                        <li title="instagram"><a href="https://www.instagram.com" target="_blank"><i
+                                    class="fab fa-instagram-square"></i></a></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright 2020, Tomer & Power</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
