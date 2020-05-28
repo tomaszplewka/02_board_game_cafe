@@ -271,7 +271,7 @@ label[class="closed"] {
 /* Showcase Section */
 /*  */
 #showcase-wrapper {
-	background: url(../img/board-games-background-large.jpg) no-repeat center center/cover;
+	background: url(../img/board-games-background-small.jpg) no-repeat center center/cover;
 	height: 100vh;
 	color: var(--color-heading);
 }
@@ -648,7 +648,7 @@ input:checked ~ .content {
 /* Book Now Section */
 /*  */
 #book-now-wrapper {
-	background: url(../img/board-games-background-large.jpg) no-repeat center center/cover;
+	background: url(../img/board-games-background-small.jpg) no-repeat center center/cover;
 }
 
 .transparent-wrapper {
