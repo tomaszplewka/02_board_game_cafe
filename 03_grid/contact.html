@@ -12,7 +12,7 @@
     <script src="https://kit.fontawesome.com/e9cc24e640.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style/style-index.css">
     <link rel="stylesheet" href="./style/style-rest.css">
-    <title>Board Game Cafe | Game Collection</title>
+    <title>Board Game Cafe | Contact Us</title>
 </head>
 
 <body>
@@ -52,8 +52,8 @@
                             <li><a href="./index.html">Home</a></li>
                             <li><a href="./about.html">About Us</a></li>
                             <li><a href="./events.html">Events</a></li>
-                            <li><a class="current" href="./game-collection.html">Game Collection</a></li>
-                            <li><a href="./contact.html">Contact Us</a></li>
+                            <li><a href="./game-collection.html">Game Collection</a></li>
+                            <li><a class="current" href="./contact.html">Contact Us</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -61,79 +61,68 @@
         </div>
     </header>
     <section>
-        <div id="game-collection-main-wrapper" class="bg-white">
+        <div id="contact-main-wrapper" class="bg-white">
             <div class="container">
-                <div class="game-collection-heading">
-                    <h1 class="heading-1">Our Game Collection</h1>
+                <div class="contact-heading">
+                    <h1 class="heading-1">Contact Us</h1>
                 </div>
-                <div class="game-collection-img">
-                    <img class="photo border-shadow" src="./img/game-collection-main-large.jpg" alt="Game Collection">
+                <div class="contact-img">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="./img/contact-contact-us-medium.jpg">
+                        <img class="photo border-shadow" src="./img/contact-contact-us-small.jpg" alt="Contact Us">
+                    </picture>
                 </div>
             </div>
         </div>
     </section>
     <section>
-        <div id="game-collection-wrapper" class="bg-light">
-            <div class="container">
-                <div>
-                    <h1 class="heading-1">List of Board Games</h1>
-                    <p class="p-2 bg-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus alias
-                        officiis, incidunt ipsam explicabo aliquam dicta nostrum eaque laborum tenetur quaerat ut
-                        temporibus id quae amet quas porro reprehenderit ratione perferendis quis maiores vitae.
-                        Officiis, consequatur a illum laudantium rerum ducimus eaque ut eligendi non explicabo modi
-                        expedita velit placeat.</p>
+        <div id="contact-wrapper" class="bg-light">
+            <div class="container grid-template">
+                <div class="heading-wrapper">
+                    <h1 class="heading-1">Get in Touch</h1>
                 </div>
-                <div class="games">
-                    <div class="non-alphanumeric">
-                        <ul>
-                            <li>7 wonders</li>
-                            <li>7 wonders</li>
-                            <li>7 wonders</li>
-                            <li>7 wonders</li>
-                            <li>7 wonders</li>
-                            <li>7 wonders</li>
-                            <li>7 wonders</li>
-                            <li>7 wonders</li>
-                            <li>7 wonders</li>
-                            <li>7 wonders</li>
-                        </ul>
-                        <div>
-                            <span class="letter border-shadow">#</span>
-                        </div>
+                <div class="form-wrapper bg-dark border-shadow">
+                    <div class="form-description">
+                        <h2 class="heading-2">Let's Stay in Touch</h2>
+                        <p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat pariatur a modi
+                            veniam doloremque
+                            dicta officia saepe, molestiae deserunt libero nihil animi rerum quibusdam itaque, repellat
+                            adipisci inventore
+                            distinctio. Nesciunt, cumque enim. Qui accusantium, saepe nihil, quas doloremque tempora
+                            commodi voluptates fuga
+                            ut facere illo. Dicta ipsa possimus similique id?</p>
                     </div>
-                    <div class="letter-A">
-                        <ul>
-                            <li>Arkham Horror</li>
-                            <li>Arkham Horror</li>
-                            <li>Arkham Horror</li>
-                            <li>Arkham Horror</li>
-                            <li>Arkham Horror</li>
-                            <li>Arkham Horror</li>
-                            <li>Arkham Horror</li>
-                            <li>Arkham Horror</li>
-                            <li>Arkham Horror</li>
-                            <li>Arkham Horror</li>
-                        </ul>
-                        <div>
-                            <span class="letter border-shadow">A</span>
-                        </div>
-                    </div>
-                    <div class="letter-Z">
-                        <ul>
-                            <li>Zombie Attack</li>
-                            <li>Zombie Attack</li>
-                            <li>Zombie Attack</li>
-                            <li>Zombie Attack</li>
-                            <li>Zombie Attack</li>
-                            <li>Zombie Attack</li>
-                            <li>Zombie Attack</li>
-                            <li>Zombie Attack</li>
-                            <li>Zombie Attack</li>
-                            <li>Zombie Attack</li>
-                        </ul>
-                        <div>
-                            <span class="letter border-shadow">Z</span>
-                        </div>
+                    <div class="form">
+                        <form>
+                            <fieldset class="border-shadow">
+                                <legend class="border-shadow">Contact Us</legend>
+                                <div class="select">
+                                    <label for="location">Location</label>
+                                    <select id="location" name="location">
+                                        <option value="Calgary" checked>Calgary</option>
+                                        <option value="Toronto">Toronto</option>
+                                    </select>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <input type="text" id="name" name="name" placeholder="Name">
+                                    </li>
+                                    <li>
+                                        <input type="email" id="email" name="email" required
+                                            placeholder="john.doe@hotmail.com">
+                                    </li>
+                                    <li>
+                                        <input type="text" name="subject" id="subject" placeholder="Subject">
+                                    </li>
+                                    <li>
+                                        <textarea name="message" id="message" placeholder="Message"></textarea>
+                                    </li>
+                                    <li>
+                                        <button class="btn-dark border-shadow" type="submit">Book Now</button>
+                                    </li>
+                                </ul>
+                            </fieldset>
+                        </form>
                     </div>
                 </div>
             </div>
