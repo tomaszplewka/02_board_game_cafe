@@ -1,0 +1,338 @@
+/*  */
+/*  */
+/* about.html */
+/*  */
+/*  */
+/*  */
+/* Showcase Section */
+/*  */
+#about-wrapper,
+#events-main-wrapper,
+#game-collection-main-wrapper,
+#contact-main-wrapper {
+	padding-top: 6rem;
+}
+
+#about-wrapper .container,
+#events-main-wrapper .container,
+#game-collection-main-wrapper .container,
+#contact-main-wrapper .container {
+	display: flex;
+	flex-direction: column;
+}
+
+#about-wrapper .about-img {
+	padding: 0 5rem;
+}
+
+#about-wrapper .photo,
+#events-main-wrapper .photo,
+#game-collection-main-wrapper .photo,
+#contact-main-wrapper .photo {
+	margin: 0 auto 5rem;
+}
+
+/* Out Team Section */
+#our-team .container {
+	grid-template-areas: 'heading heading' 'owners owners' 'person-1 person-2' 'person-3 person-4';
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: auto repeat(3, minmax(250px, auto));
+	grid-gap: 2rem;
+	padding: 5rem 2rem;
+}
+
+#our-team .heading-container {
+	grid-area: heading;
+}
+
+#our-team .owners {
+	grid-area: owners;
+	grid-template-columns: repeat(2, 1fr);
+	padding: 3rem;
+	grid-gap: 4rem;
+	border-radius: 1rem;
+	box-shadow: var(--shadow);
+}
+
+#our-team #person-1 {
+	grid-area: person-1;
+}
+#our-team #person-2 {
+	grid-area: person-2;
+}
+#our-team #person-3 {
+	grid-area: person-3;
+}
+#our-team #person-4 {
+	grid-area: person-4;
+}
+
+#our-team .person {
+	grid-template-rows: minmax(200px, 300px) auto;
+	border-radius: 1rem;
+	box-shadow: var(--shadow);
+	padding: 3rem 5rem;
+}
+
+#our-team .person .photo {
+	border-radius: 50%;
+}
+
+/* Testimonials Section */
+#testimonials-wrapper .container {
+	grid-template-rows: auto repeat(3, minmax(250px, auto));
+	grid-gap: 2rem;
+	padding: 5rem 2rem;
+}
+
+#testimonials-wrapper .testimonial,
+#events-wrapper .events {
+	grid-template-columns: 1fr 3fr;
+	grid-gap: 3rem;
+	position: relative;
+	padding: 3rem;
+}
+
+#testimonials-wrapper .photo {
+	border-radius: 50%;
+	box-shadow: none;
+}
+
+#testimonials-wrapper .testimonial .p-2,
+#testimonials-wrapper .testimonial .heading-3 {
+	text-align: left;
+}
+
+#testimonials-wrapper i {
+	position: absolute;
+	top: 5%;
+	left: 27%;
+	font-size: 3rem;
+	color: var(--color-emphasis);
+}
+
+/*  */
+/*  */
+/* events.html */
+/*  */
+/*  */
+/*  */
+#events-wrapper .container {
+	grid-template-rows: auto repeat(3, minmax(300px, auto));
+	grid-gap: 2rem;
+	padding: 5rem 2rem;
+}
+
+#events-wrapper .events {
+	grid-template-columns: 1fr 2fr;
+}
+
+#events-wrapper .photo {
+	border-radius: 50%;
+	box-shadow: none;
+}
+
+/*  */
+/*  */
+/* game-collection.html */
+/*  */
+/*  */
+#game-collection-wrapper {
+	padding-top: 5rem;
+}
+
+#game-collection-wrapper .p-2 {
+	padding: 3rem;
+	border-radius: 1rem;
+	box-shadow: var(--shadow);
+}
+
+#game-collection-wrapper .container div ul li {
+	font-size: 1.75rem;
+}
+
+#game-collection-wrapper .container .games div {
+	position: relative;
+}
+
+#game-collection-wrapper .container .games div > ul {
+	width: 100%;
+	columns: auto 3;
+	column-gap: 10%;
+	column-fill: balance;
+	margin: 5rem 0;
+	padding: 4rem 2rem;
+	border-top: 0.5rem double var(--color-border);
+	text-align: center;
+}
+
+#game-collection-wrapper .container .games div div:last-child {
+	position: absolute;
+	top: -17.5%;
+	left: 0;
+	width: 100%;
+}
+
+#game-collection-wrapper .letter {
+	font-family: var(--font-heading);
+	font-size: 4rem;
+	line-height: 1em;
+	display: block;
+	text-align: center;
+	width: 5rem;
+	margin: auto;
+	padding: 1rem 0;
+	border: 0.1rem solid var(--color-dark);
+	background-color: var(--color-dark);
+	color: var(--color-heading);
+}
+
+/*  */
+/*  */
+/* contact.html */
+/*  */
+/*  */
+#contact-wrapper .container {
+	padding: 5rem 2rem;
+	grid-gap: 2rem;
+}
+
+#contact-wrapper .form-description .p-2 {
+	padding: 0 3rem 3rem;
+}
+
+#contact-wrapper .form {
+	padding: 5rem;
+}
+
+#contact-wrapper .form fieldset {
+	background-color: var(--color-light);
+}
+
+#contact-wrapper .form .select {
+	margin-top: 2rem;
+}
+
+#contact-wrapper .form fieldset ul li:nth-child(3),
+#contact-wrapper .form fieldset ul li:nth-child(4) {
+	display: block;
+	width: 100%;
+}
+
+#contact-wrapper .form textarea {
+	text-align: center;
+	width: 100%;
+	padding: 0.5rem;
+	margin: 0.5rem 0;
+	font-size: 1.4rem;
+	resize: none;
+	border: 0.1rem solid var(--color-border);
+	border-radius: 1rem;
+	transition: all 0.4s ease-in-out;
+}
+
+#contact-wrapper .form label {
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	font-size: 1.3rem;
+	margin-top: 0.5rem;
+	color: var(--color-dark);
+	font-family: var(--font-heading);
+	letter-spacing: 0.2rem;
+}
+
+#contact-wrapper .form fieldset ul li:last-child {
+	display: block;
+	margin: 2rem auto;
+}
+
+#contact-wrapper .form fieldset ul li:last-child .btn-dark {
+	margin: auto;
+}
+
+/*  */
+/* Media Queries */
+/*  */
+@media screen and (max-width: 768px) {
+	/* about.html */
+	#our-team .container {
+		grid-template-areas: 'heading heading' 'owners owners' 'person-1 person-1' 'person-2 person-2'
+			'person-3 person-3' 'person-4 person-4';
+		grid-template-rows: auto repeat(5, minmax(250px, auto));
+	}
+
+	#our-team .person {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: minmax(200px, 250px);
+		grid-gap: 3rem;
+		padding: 3rem;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	* {
+		font-size: 9px;
+	}
+
+	#our-team .owners {
+		grid-template-columns: 1fr;
+		grid-template-rows: auto 250px;
+	}
+
+	#testimonials-wrapper .testimonial,
+	#events-wrapper .events {
+		grid-template-columns: 1fr 1.5fr;
+	}
+
+	#testimonials-wrapper i {
+		left: 41%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	#about-wrapper .photo,
+	#events-main-wrapper .photo,
+	#game-collection-main-wrapper .photo,
+	#contact-main-wrapper .photo {
+		margin: 0 auto 2rem;
+	}
+
+	#about-wrapper .about-img {
+		padding: 0;
+	}
+
+	#our-team .person {
+		grid-template-columns: 1fr;
+		grid-template-rows: minmax(200px, 250px) auto;
+		grid-gap: 0rem;
+		padding: 3rem;
+	}
+
+	#testimonials-wrapper .testimonial,
+	#events-wrapper .events {
+		grid-template-columns: 1fr;
+		grid-template-rows: 200px auto;
+	}
+
+	#testimonials-wrapper .testimonial .p-2,
+	#testimonials-wrapper .testimonial .heading-3 {
+		text-align: center;
+	}
+
+	#testimonials-wrapper i {
+		top: -3%;
+		left: 4%;
+	}
+
+	#showcase-wrapper form fieldset ul li,
+	#contact-wrapper .form fieldset ul li {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	* {
+		font-size: 8px;
+	}
+}
