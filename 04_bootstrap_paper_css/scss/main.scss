@@ -1,6 +1,310 @@
-$color: red;
+@import 'reset';
+@import 'utilities';
 
+//
+// index.html
+//
+.showcase-wrapper {
+	background: url(../img/board-games-background-large.jpg) no-repeat center center/cover;
+	position: relative;
+	background-attachment: fixed;
 
-body {
-    background-color: $color;
+	&::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: rgba(255, 255, 255, 0.6);
+		height: 100%;
+		width: 100%;
+	}
+
+	.modal {
+		z-index: 100;
+	}
+
+	nav {
+		.logo {
+			font-weight: bold;
+
+			img {
+				width: 40px;
+				height: 40px;
+				border: none;
+				display: inline-block;
+				margin-bottom: -5px;
+			}
+		}
+
+		.logo-hidden {
+			font-weight: bold;
+			display: none;
+
+			img {
+				width: 40px;
+				height: 40px;
+				border: none;
+				display: inline-block;
+				margin-bottom: -5px;
+			}
+		}
+	}
+
+	.btn-hidden {
+		display: none;
+	}
 }
+
+#home-features {
+	> * {
+		position: relative;
+		z-index: 10;
+	}
+
+	img {
+		height: 200px;
+	}
+}
+
+#how-it-works {
+	height: 500px;
+	position: relative;
+
+	> * {
+		position: relative;
+		z-index: 10;
+	}
+
+	.collapsible {
+		border-top-color: #c1c0bd;
+
+		label {
+			border-bottom-color: #c1c0bd;
+		}
+
+		.collapsible-body {
+			border-bottom-color: #c1c0bd;
+		}
+	}
+}
+
+#rooms {
+	position: relative;
+
+	&.razor-blade {
+		&::after {
+			transform-origin: top left;
+			transform: skewY(10deg);
+		}
+	}
+
+	> * {
+		z-index: 10;
+	}
+
+	div.row {
+		div.room {
+			position: relative;
+
+			div.back {
+				height: 350px;
+				width: 100%;
+				transform: scale(0);
+				transition: all 0.4s ease-in-out 0.2s;
+			}
+
+			div.front {
+				position: absolute;
+				height: 100%;
+				width: 100%;
+				cursor: pointer;
+				transform: scale(1);
+				transition: all 0.4s ease-in-out 0.2s;
+			}
+
+			&:hover div.front {
+				transform: scale(0);
+			}
+
+			&:hover div.back {
+				transform: scale(1);
+			}
+		}
+	}
+}
+
+#popup {
+	> * {
+		z-index: 1;
+	}
+
+	.photo {
+		height: 325px;
+	}
+}
+
+footer {
+	position: relative;
+	background: url(../img/board-games-background-large.jpg) no-repeat center center/cover;
+	background-attachment: fixed;
+
+	&::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: rgba(255, 255, 255, 0.6);
+		height: 100%;
+		width: 100%;
+	}
+
+	h2 {
+		position: relative;
+		z-index: 1;
+	}
+
+	.tabs {
+		label {
+			color: #000;
+			display: inline-block;
+			margin: 0 9.5%;
+			width: 30%;
+		}
+
+		input[id="tab1"]:checked ~ div[id="content1"],
+		input[id="tab2"]:checked ~ div[id="content2"] {
+			display: flex !important;
+			height: auto !important;
+			flex-direction: row;
+		}
+	}
+
+	.modal {
+		z-index: 100;
+	}
+
+	#book-now {
+		.btn-block.btn-hidden {
+			display: none;
+		}
+	}
+}
+
+//
+// the rest
+//
+#our-team,
+#events,
+#game-collection,
+#contact {
+	position: relative;
+
+	> * {
+		z-index: 2;
+	}
+
+	&.razor-blade {
+		&::after {
+			transform-origin: top left;
+			z-index: 1;
+		}
+	}
+
+	.person {
+		.photo {
+			height: 300px;
+		}
+	}
+}
+
+#testimonials {
+	position: relative;
+
+	> * {
+		z-index: 2;
+	}
+
+	&.razor-blade {
+		&::before {
+			transform: skewY(-10deg) translateY(-20px);
+		}
+
+		&::after {
+			transform-origin: top left;
+			transform: skewY(10deg) translateY(-20px);
+			z-index: 1;
+		}
+	}
+
+	.photo {
+		height: 150px;
+	}
+
+	.testimonial {
+		position: relative;
+
+		i {
+			position: absolute;
+			top: -12px;
+			left: 0;
+			z-index: 10;
+		}
+	}
+}
+
+#events {
+	.photo {
+		height: 100%;
+	}
+}
+
+#game-collection {
+	.games {
+		div {
+			position: relative;
+
+			& > ul {
+				width: 100%;
+				columns: auto 3;
+				column-gap: 10%;
+				column-fill: balance;
+			}
+
+			div:last-child {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+			}
+		}
+	}
+
+	.letter {
+		font-size: 3rem;
+		line-height: 1em;
+		display: block;
+		width: 5rem;
+	}
+}
+
+#contact {
+	.tabs {
+		> label {
+			color: #000;
+		}
+
+		input {
+			display: block;
+		}
+
+		> input {
+			display: none;
+		}
+	}
+
+	textarea {
+		width: 100%;
+	}
+}
+
+@import 'media';

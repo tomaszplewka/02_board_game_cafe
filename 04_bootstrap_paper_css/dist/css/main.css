@@ -1,2 +1,373 @@
-body {
-  background-color: red; }
+a {
+  text-decoration: none;
+  background-image: none; }
+
+ul li::before {
+  content: ''; }
+
+.text-center {
+  text-align: center; }
+
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto; }
+
+.ml-auto {
+  margin-left: auto; }
+
+.background-white {
+  background: #fff; }
+
+.background-dark {
+  background: #000; }
+
+.razor-blade::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  transform-origin: top right;
+  transform: skewY(-10deg);
+  z-index: 1; }
+
+.razor-blade::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  transform-origin: top right;
+  transform: skewY(10deg); }
+
+.photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1; }
+
+.current {
+  color: #a7342d !important;
+  font-weight: bold;
+  border-bottom-color: #a7342d !important; }
+
+h1,
+h2 {
+  line-height: 1em; }
+
+.showcase-wrapper {
+  background: url(../img/board-games-background-large.jpg) no-repeat center center/cover;
+  position: relative;
+  background-attachment: fixed; }
+  .showcase-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 100%;
+    width: 100%; }
+  .showcase-wrapper .modal {
+    z-index: 100; }
+  .showcase-wrapper nav .logo {
+    font-weight: bold; }
+    .showcase-wrapper nav .logo img {
+      width: 40px;
+      height: 40px;
+      border: none;
+      display: inline-block;
+      margin-bottom: -5px; }
+  .showcase-wrapper nav .logo-hidden {
+    font-weight: bold;
+    display: none; }
+    .showcase-wrapper nav .logo-hidden img {
+      width: 40px;
+      height: 40px;
+      border: none;
+      display: inline-block;
+      margin-bottom: -5px; }
+  .showcase-wrapper .btn-hidden {
+    display: none; }
+
+#home-features > * {
+  position: relative;
+  z-index: 10; }
+
+#home-features img {
+  height: 200px; }
+
+#how-it-works {
+  height: 500px;
+  position: relative; }
+  #how-it-works > * {
+    position: relative;
+    z-index: 10; }
+  #how-it-works .collapsible {
+    border-top-color: #c1c0bd; }
+    #how-it-works .collapsible label {
+      border-bottom-color: #c1c0bd; }
+    #how-it-works .collapsible .collapsible-body {
+      border-bottom-color: #c1c0bd; }
+
+#rooms {
+  position: relative; }
+  #rooms.razor-blade::after {
+    transform-origin: top left;
+    transform: skewY(10deg); }
+  #rooms > * {
+    z-index: 10; }
+  #rooms div.row div.room {
+    position: relative; }
+    #rooms div.row div.room div.back {
+      height: 350px;
+      width: 100%;
+      transform: scale(0);
+      transition: all 0.4s ease-in-out 0.2s; }
+    #rooms div.row div.room div.front {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      cursor: pointer;
+      transform: scale(1);
+      transition: all 0.4s ease-in-out 0.2s; }
+    #rooms div.row div.room:hover div.front {
+      transform: scale(0); }
+    #rooms div.row div.room:hover div.back {
+      transform: scale(1); }
+
+#popup > * {
+  z-index: 1; }
+
+#popup .photo {
+  height: 325px; }
+
+footer {
+  position: relative;
+  background: url(../img/board-games-background-large.jpg) no-repeat center center/cover;
+  background-attachment: fixed; }
+  footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 100%;
+    width: 100%; }
+  footer h2 {
+    position: relative;
+    z-index: 1; }
+  footer .tabs label {
+    color: #000;
+    display: inline-block;
+    margin: 0 9.5%;
+    width: 30%; }
+  footer .tabs input[id="tab1"]:checked ~ div[id="content1"],
+  footer .tabs input[id="tab2"]:checked ~ div[id="content2"] {
+    display: flex !important;
+    height: auto !important;
+    flex-direction: row; }
+  footer .modal {
+    z-index: 100; }
+  footer #book-now .btn-block.btn-hidden {
+    display: none; }
+
+#our-team,
+#events,
+#game-collection,
+#contact {
+  position: relative; }
+  #our-team > *,
+  #events > *,
+  #game-collection > *,
+  #contact > * {
+    z-index: 2; }
+  #our-team.razor-blade::after,
+  #events.razor-blade::after,
+  #game-collection.razor-blade::after,
+  #contact.razor-blade::after {
+    transform-origin: top left;
+    z-index: 1; }
+  #our-team .person .photo,
+  #events .person .photo,
+  #game-collection .person .photo,
+  #contact .person .photo {
+    height: 300px; }
+
+#testimonials {
+  position: relative; }
+  #testimonials > * {
+    z-index: 2; }
+  #testimonials.razor-blade::before {
+    transform: skewY(-10deg) translateY(-20px); }
+  #testimonials.razor-blade::after {
+    transform-origin: top left;
+    transform: skewY(10deg) translateY(-20px);
+    z-index: 1; }
+  #testimonials .photo {
+    height: 150px; }
+  #testimonials .testimonial {
+    position: relative; }
+    #testimonials .testimonial i {
+      position: absolute;
+      top: -12px;
+      left: 0;
+      z-index: 10; }
+
+#events .photo {
+  height: 100%; }
+
+#game-collection .games div {
+  position: relative; }
+  #game-collection .games div > ul {
+    width: 100%;
+    columns: auto 3;
+    column-gap: 10%;
+    column-fill: balance; }
+  #game-collection .games div div:last-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; }
+
+#game-collection .letter {
+  font-size: 3rem;
+  line-height: 1em;
+  display: block;
+  width: 5rem; }
+
+#contact .tabs > label {
+  color: #000; }
+
+#contact .tabs input {
+  display: block; }
+
+#contact .tabs > input {
+  display: none; }
+
+#contact textarea {
+  width: 100%; }
+
+@media screen and (max-width: 992px) {
+  #home-features .feature .card {
+    flex-direction: row; }
+    #home-features .feature .card .photo {
+      height: 300px;
+      width: 350px; }
+  #testimonials .card {
+    flex-direction: row; }
+    #testimonials .card > * {
+      width: 50%;
+      height: auto; }
+  #testimonials .card:nth-child(2) .photo {
+    order: 2; } }
+
+@media screen and (max-width: 768px) {
+  * {
+    font-size: 15px; }
+  h1 {
+    font-size: 3rem; }
+    h1 span {
+      font-size: 3rem; }
+  h2 {
+    font-size: 2.5rem; }
+  header .header-info {
+    display: none; }
+  header .heading-small-up {
+    display: none; }
+  nav .nav-brand {
+    text-align: left;
+    margin: 0; }
+    nav .nav-brand .logo,
+    nav .nav-brand i {
+      font-size: 1.5rem; }
+  nav .collapsible {
+    margin: 0; }
+  #home-features .feature .card .photo {
+    height: 250px;
+    width: 300px; }
+  #footer-follow-us > div {
+    order: 2; }
+  #footer-follow-us ul {
+    order: 1; }
+  .person.card:nth-child(odd) {
+    flex-direction: row; }
+    .person.card:nth-child(odd) > * {
+      width: 50%; }
+  .person.card:nth-child(even) {
+    flex-direction: row-reverse; }
+    .person.card:nth-child(even) > * {
+      width: 50%; } }
+
+@media screen and (max-width: 650px) {
+  nav .logo {
+    display: none; }
+  nav .logo-hidden {
+    display: inline-block !important;
+    font-size: 1.5rem; }
+  #home-features .feature .card {
+    flex-direction: column; }
+    #home-features .feature .card .photo {
+      height: 300px;
+      width: 100%; } }
+
+@media screen and (max-width: 400px) {
+  * {
+    font-size: 14px; }
+  h1 {
+    font-size: 2.75rem; }
+  h2 {
+    font-size: 2.25rem; }
+  #home-features .feature .card {
+    flex-direction: column; }
+    #home-features .feature .card .photo {
+      height: 200px;
+      width: 100%; }
+  #rooms div.row div.room div.back {
+    height: 250px; }
+  #popup {
+    display: none; }
+  footer #content1 .contact *,
+  footer #content1 .hours *,
+  footer #content2 .contact *,
+  footer #content2 .hours * {
+    font-size: 11px; }
+  .showcase-wrapper .about-img,
+  .showcase-wrapper .events-img,
+  .showcase-wrapper .game-collection-img,
+  .showcase-wrapper .contact-img {
+    padding: 1rem 0; }
+  .person.card:nth-child(odd),
+  .person.card:nth-child(even) {
+    flex-direction: column; }
+    .person.card:nth-child(odd) > *,
+    .person.card:nth-child(even) > * {
+      width: auto; }
+    .person.card:nth-child(odd) .photo,
+    .person.card:nth-child(even) .photo {
+      height: 200px !important; }
+  #testimonials .card {
+    flex-direction: column; }
+    #testimonials .card > * {
+      width: auto; }
+    #testimonials .card .photo {
+      height: 150px;
+      order: 1; }
+    #testimonials .card .card-body {
+      order: 2; } }
+
+@media screen and (max-width: 550px), (max-height: 500px) {
+  label[for="form-modal"] {
+    display: none !important; }
+  .btn-hidden {
+    display: inline-block !important; } }

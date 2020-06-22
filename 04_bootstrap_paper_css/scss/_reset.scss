@@ -1,0 +1,8 @@
+a {
+	text-decoration: none;
+	background-image: none;
+}
+
+ul li::before {
+	content: '';
+}

@@ -1,0 +1,236 @@
+@media screen and (max-width: 992px) {
+	#home-features {
+		.feature {
+			.card {
+				flex-direction: row;
+
+				.photo {
+					height: 300px;
+					width: 350px;
+				}
+			}
+		}
+	}
+
+	#testimonials {
+		.card {
+			flex-direction: row;
+
+			> * {
+				width: 50%;
+				height: auto;
+			}
+		}
+
+		.card:nth-child(2) {
+			.photo {
+				order: 2;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	* {
+		font-size: 15px;
+	}
+
+	h1 {
+		font-size: 3rem;
+
+		span {
+			font-size: 3rem;
+		}
+	}
+
+	h2 {
+		font-size: 2.5rem;
+	}
+
+	header {
+		.header-info {
+			display: none;
+		}
+
+		.heading-small-up {
+			display: none;
+		}
+	}
+
+	nav {
+		.nav-brand {
+			text-align: left;
+			margin: 0;
+
+			.logo,
+			i {
+				font-size: 1.5rem;
+			}
+		}
+
+		.collapsible {
+			margin: 0;
+		}
+	}
+
+	#home-features {
+		.feature {
+			.card {
+				.photo {
+					height: 250px;
+					width: 300px;
+				}
+			}
+		}
+	}
+
+	#footer-follow-us {
+		> div {
+			order: 2;
+		}
+
+		ul {
+			order: 1;
+		}
+	}
+
+	.person.card:nth-child(odd) {
+		flex-direction: row;
+
+		> * {
+			width: 50%;
+		}
+	}
+
+	.person.card:nth-child(even) {
+		flex-direction: row-reverse;
+
+		> * {
+			width: 50%;
+		}
+	}
+}
+
+@media screen and (max-width: 650px) {
+	nav {
+		.logo {
+			display: none;
+		}
+
+		.logo-hidden {
+			display: inline-block !important;
+			font-size: 1.5rem;
+		}
+	}
+
+	#home-features {
+		.feature {
+			.card {
+				flex-direction: column;
+
+				.photo {
+					height: 300px;
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 400px) {
+	* {
+		font-size: 14px;
+	}
+
+	h1 {
+		font-size: 2.75rem;
+	}
+
+	h2 {
+		font-size: 2.25rem;
+	}
+
+	#home-features {
+		.feature {
+			.card {
+				flex-direction: column;
+
+				.photo {
+					height: 200px;
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	#rooms div.row div.room div.back {
+		height: 250px;
+	}
+
+	#popup {
+		display: none;
+	}
+
+	footer {
+		#content1,
+		#content2 {
+			.contact,
+			.hours {
+				* {
+					font-size: 11px;
+				}
+			}
+		}
+	}
+
+	.showcase-wrapper {
+		.about-img,
+		.events-img,
+		.game-collection-img,
+		.contact-img {
+			padding: 1rem 0;
+		}
+	}
+
+	.person.card:nth-child(odd),
+	.person.card:nth-child(even) {
+		flex-direction: column;
+
+		> * {
+			width: auto;
+		}
+
+		.photo {
+			height: 200px !important;
+		}
+	}
+
+	#testimonials {
+		.card {
+			flex-direction: column;
+
+			> * {
+				width: auto;
+			}
+
+			.photo {
+				height: 150px;
+				order: 1;
+			}
+
+			.card-body {
+				order: 2;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 550px), (max-height: 500px) {
+	label[for="form-modal"] {
+		display: none !important;
+	}
+
+	.btn-hidden {
+		display: inline-block !important;
+	}
+}
