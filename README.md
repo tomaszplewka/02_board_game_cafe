@@ -30,15 +30,59 @@
   - [x] Flexbox
   - [x] Grid
   - [x] Bootstrap & PaperCSS
-- [x] Each of them is placed in its own branch
 
 # Demo
 
-See each branch for more details.
++ Grid
+
+    + Desktop :desktop_computer:
+    
+    <p align="center">
+        <img src="https://github.com/tomaszplewka/02_board_game_cafe/blob/master/gifs/grid/boardGameCafe_desktop.gif" width="600" alt="desktop">
+    </p>
+
+    + Tablet :computer:
+    
+    <p align="center">
+        <img src="https://github.com/tomaszplewka/02_board_game_cafe/blob/master/gifs/grid/boardGameCafe_tablet.gif" width="400" alt="tablet">
+    </p>
+
+    + Mobile :iphone:
+    
+    <p align="center">
+        <img src="https://github.com/tomaszplewka/02_board_game_cafe/blob/master/gifs/grid/boardGameCafe_mobile.gif" width="300" alt="mobile">
+    </p>
+    
++ Bootstrap & PaperCSS
+
+    + Desktop :desktop_computer:
+    
+    <p align="center">
+        <img src="https://github.com/tomaszplewka/02_board_game_cafe/blob/master/gifs/bootstrap_paperCSS/boardGameCafePaperCSS_desktop.gif" width="600" alt="desktop">
+    </p>
+
+    + Tablet :computer:
+    
+    <p align="center">
+        <img src="https://github.com/tomaszplewka/02_board_game_cafe/blob/master/gifs/bootstrap_paperCSS/boardGameCafePaperCSS_tablet.gif" width="400" alt="tablet">
+    </p>
+
+    + Mobile :iphone:
+    
+    <p align="center">
+        <img src="https://github.com/tomaszplewka/02_board_game_cafe/blob/master/gifs/bootstrap_paperCSS/boardGameCafePaperCSS_mobile.gif" width="300" alt="mobile">
+    </p>
 
 # Toolbox
 
-See each branch for more details.
+<p align="">
+    <img src="https://github.com/tomaszplewka/02_board_game_cafe/blob/master/imgs/html5-with-wordmark-color.svg" width="50" alt="html5" >
+    <img src="https://github.com/tomaszplewka/02_board_game_cafe/blob/master/imgs/css3-seeklogo.com.svg" width="50" alt="css3" >
+    <img src="https://github.com/tomaszplewka/02_board_game_cafe/blob/master/imgs/sass-seeklogo.com.svg" width="50" alt="sass" >
+    <img src="https://github.com/tomaszplewka/02_board_game_cafe/blob/master/imgs/npm-node-package-manager.svg" width="50" alt="npm" >
+    <img src="https://github.com/tomaszplewka/02_board_game_cafe/blob/master/imgs/bootstrap-seeklogo.com.svg" width="50" alt="bootstrap" >
+    <img src="https://raw.githubusercontent.com/papercss/papercss/master/docs/static/favicon.ico?raw=true" width="50" alt="papercss" >
+</p>
 
 # Usage
 
