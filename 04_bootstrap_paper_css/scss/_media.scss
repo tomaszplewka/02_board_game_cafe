@@ -94,19 +94,12 @@
 		}
 	}
 
-	.person.card:nth-child(odd) {
-		flex-direction: row;
-
-		> * {
-			width: 50%;
-		}
-	}
-
+	.person.card:nth-child(odd),
 	.person.card:nth-child(even) {
-		flex-direction: row-reverse;
+		flex-direction: column;
 
 		> * {
-			width: 50%;
+			width: 100%;
 		}
 	}
 }
