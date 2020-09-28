@@ -88,6 +88,8 @@
 
 Just clone the repo.
 
+For Bootstrap & PaperCSS version run `npm install` from inside your project directory (i.e. where package.json is located) to install all dependencies.
+
 # License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
