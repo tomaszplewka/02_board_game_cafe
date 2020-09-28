@@ -15,9 +15,9 @@
 	/*  */
 	/* SHOWCASE SECTION */
 	/*  */
-	#showcase-wrapper {
-		height: 100vh;
-	}
+	#showcase-wrapper .container {
+	height: auto;
+}
 
 	#showcase-wrapper .container .main-heading-2 {
 		font-size: 3rem;

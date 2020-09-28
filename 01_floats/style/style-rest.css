@@ -11,7 +11,7 @@
 #game-collection-main-wrapper,
 #contact-main-wrapper {
 	clear: both;
-	height: 100vh;
+	/* height: 100vh; */
 }
 
 #about-wrapper .photo,
