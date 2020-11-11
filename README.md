@@ -38,19 +38,19 @@
     + Desktop :desktop_computer:
     
     <p align="center">
-        <img src="https://github.com/tomaszplewka/02_board_game_cafe/blob/master/gifs/grid/boardGameCafe_desktop.gif" width="600" alt="desktop">
+        <img src="https://github.com/tomaszplewka/02_board_game_cafe/blob/master/gifs/grid/boardGameCafe_desktop.gif" width="700" alt="desktop">
     </p>
 
     + Tablet :computer:
     
     <p align="center">
-        <img src="https://github.com/tomaszplewka/02_board_game_cafe/blob/master/gifs/grid/boardGameCafe_tablet.gif" width="400" alt="tablet">
+        <img src="https://github.com/tomaszplewka/02_board_game_cafe/blob/master/gifs/grid/boardGameCafe_tablet.gif" width="350" alt="tablet">
     </p>
 
     + Mobile :iphone:
     
     <p align="center">
-        <img src="https://github.com/tomaszplewka/02_board_game_cafe/blob/master/gifs/grid/boardGameCafe_mobile.gif" width="300" alt="mobile">
+        <img src="https://github.com/tomaszplewka/02_board_game_cafe/blob/master/gifs/grid/boardGameCafe_mobile.gif" width="250" alt="mobile">
     </p>
     
 + Bootstrap & PaperCSS
@@ -64,13 +64,13 @@
     + Tablet :computer:
     
     <p align="center">
-        <img src="https://github.com/tomaszplewka/02_board_game_cafe/blob/master/gifs/bootstrap_paperCSS/boardGameCafePaperCSS_tablet.gif" width="400" alt="tablet">
+        <img src="https://github.com/tomaszplewka/02_board_game_cafe/blob/master/gifs/bootstrap_paperCSS/boardGameCafePaperCSS_tablet.gif" width="350" alt="tablet">
     </p>
 
     + Mobile :iphone:
     
     <p align="center">
-        <img src="https://github.com/tomaszplewka/02_board_game_cafe/blob/master/gifs/bootstrap_paperCSS/boardGameCafePaperCSS_mobile.gif" width="300" alt="mobile">
+        <img src="https://github.com/tomaszplewka/02_board_game_cafe/blob/master/gifs/bootstrap_paperCSS/boardGameCafePaperCSS_mobile.gif" width="250" alt="mobile">
     </p>
 
 # Toolbox
