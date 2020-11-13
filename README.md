@@ -37,27 +37,9 @@
 
     [see Grid Demo here](https://github.com/tomaszplewka/02_board_game_cafe/tree/master/03_grid "Grid Demo")
     
-    <a href="https://github.com/tomaszplewka/02_board_game_cafe/tree/master/03_grid" target="_blank">see Grid Demo here</a>
-    
 + Bootstrap & PaperCSS
 
-    + Desktop :desktop_computer:
-    
-    <p align="center">
-        <img src="https://github.com/tomaszplewka/02_board_game_cafe/blob/master/gifs/bootstrap_paperCSS/boardGameCafePaperCSS_desktop.gif" width="600" alt="desktop">
-    </p>
-
-    + Tablet :computer:
-    
-    <p align="center">
-        <img src="https://github.com/tomaszplewka/02_board_game_cafe/blob/master/gifs/bootstrap_paperCSS/boardGameCafePaperCSS_tablet.gif" width="350" alt="tablet">
-    </p>
-
-    + Mobile :iphone:
-    
-    <p align="center">
-        <img src="https://github.com/tomaszplewka/02_board_game_cafe/blob/master/gifs/bootstrap_paperCSS/boardGameCafePaperCSS_mobile.gif" width="250" alt="mobile">
-    </p>
+    [see Bootstrap & PaperCSS Demo here](https://github.com/tomaszplewka/02_board_game_cafe/tree/master/04_bootstrap_paper_css "Grid Demo")
 
 # Toolbox
 
