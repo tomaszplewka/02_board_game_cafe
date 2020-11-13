@@ -35,23 +35,9 @@
 
 + Grid
 
-    + Desktop :desktop_computer:
+    [see Grid Demo here](https://github.com/tomaszplewka/02_board_game_cafe/tree/master/03_grid "Grid Demo")
     
-    <p align="center">
-        <img src="https://github.com/tomaszplewka/02_board_game_cafe/blob/master/gifs/grid/boardGameCafe_desktop.gif" width="700" alt="desktop">
-    </p>
-
-    + Tablet :computer:
-    
-    <p align="center">
-        <img src="https://github.com/tomaszplewka/02_board_game_cafe/blob/master/gifs/grid/boardGameCafe_tablet.gif" width="350" alt="tablet">
-    </p>
-
-    + Mobile :iphone:
-    
-    <p align="center">
-        <img src="https://github.com/tomaszplewka/02_board_game_cafe/blob/master/gifs/grid/boardGameCafe_mobile.gif" width="250" alt="mobile">
-    </p>
+    <a href="https://github.com/tomaszplewka/02_board_game_cafe/tree/master/03_grid" target="_blank">see Grid Demo here</a>
     
 + Bootstrap & PaperCSS
 
