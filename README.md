@@ -39,7 +39,7 @@
     
 + Bootstrap & PaperCSS
 
-    [see Bootstrap & PaperCSS Demo here](https://github.com/tomaszplewka/02_board_game_cafe/tree/master/04_bootstrap_paper_css "Grid Demo")
+    [see Bootstrap & PaperCSS Demo here](https://github.com/tomaszplewka/02_board_game_cafe/tree/master/04_bootstrap_paper_css "Bootstrap & PaperCSS Demo")
 
 # Toolbox
 
